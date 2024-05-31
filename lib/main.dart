@@ -14,6 +14,7 @@ void main() async {
   runApp(MultiBlocProvider(
     providers: [
       BlocProvider(
+        
         create: (_) => serviceLocator<AppUserCubit>(),
       ),
       BlocProvider(
